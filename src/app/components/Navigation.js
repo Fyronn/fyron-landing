@@ -3,12 +3,12 @@ import React from 'react'
 const Navigation = () => {
     return (
         <>
-            <section className="relative pb-10 bg-coolGray-50 overflow-hidden">
+            <section className="relative pb-5 bg-coolGray-50 overflow-hidden">
                 <nav>
                     <div className="container mx-auto px-4">
                         <div className="flex h-24 items-center">
                             <a className="inline-block" href="#">
-                                <img className="h-5" src="asitrastudio-assets/logos/logo-asi.svg" alt="Furkan Mobilya Logo" />
+                               <img className="h-[150px]" src="logo.png" alt="Furkan Mobilya Logo" />
                             </a>
                             <button className="lg:hidden py-1 ml-auto">
                                 <svg width={44} height={16} viewBox="0 0 44 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,19 +22,43 @@ const Navigation = () => {
                                 <a className="inline-block hover:underline mr-10" href="#">Projelerimiz</a>
                                 <a className="inline-block hover:underline" href="#">İletişim</a>
                             </div>
-                            <a className="group hidden lg:inline-flex py-4 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200" href="#">
-                                <span className="mr-2">Ücretsiz Danışmanlık Alın</span>
+                            <a
+                                className="group hidden lg:inline-flex py-4 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200"
+                                href="tel:+905387470238"
+                            >
+                                <span className="mr-2">Hemen başlayalım</span>
                                 <span className="group-hover:rotate-45 transform transition duration-100">
-                                    <svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9 1L1 9" stroke="currentColor" strokeWidth="1.3" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" />
-                                        <path d="M9 8.33571V1H1.66429" stroke="currentColor" strokeWidth="1.3" strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" />
+                                    <svg
+                                        width={10}
+                                        height={10}
+                                        viewBox="0 0 10 10"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M9 1L1 9"
+                                            stroke="currentColor"
+                                            strokeWidth="1.3"
+                                            strokeMiterlimit={10}
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M9 8.33571V1H1.66429"
+                                            stroke="currentColor"
+                                            strokeWidth="1.3"
+                                            strokeMiterlimit={10}
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
                                     </svg>
                                 </span>
                             </a>
+
                         </div>
                     </div>
                 </nav>
-                
+
                 <div className="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-md z-50">
                     <div className="fixed inset-0 bg-gray-800 opacity-50" />
                     <nav className="relative flex flex-col py-6 px-10 w-full h-full bg-white overflow-y-auto">
