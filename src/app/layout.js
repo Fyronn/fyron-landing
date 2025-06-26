@@ -17,32 +17,37 @@ export const metadata = {
   title: "Murat Nakliyat | Otel Taşımacılığı ve Lojistik Hizmetleri - 1995'ten Beri",
   description:
     "Murat Nakliyat, 1995 yılından bu yana Antalya merkezli olarak Ege ve Akdeniz bölgelerinde otel taşımacılığı, evden eve nakliyat ve kurumsal lojistik alanında profesyonel hizmet sunmaktadır. Geniş araç filosu, zamanında teslimat ve müşteri memnuniyeti odaklı yaklaşımıyla sektörde öncü bir firmadır.",
-  keywords: [
-  // Genel anahtar kelimeler
-  "otel taşımacılığı",
-  "nakliyat",
-  "Antalya nakliyat",
-  "lojistik firması",
-  "profesyonel taşımacılık",
-  "Antalya lojistik",
-  "eşya taşıma hizmeti",
-  "mobilya nakliyesi",
-  "kurumsal nakliye",
-  "şehirlerarası nakliyat",
-  "taşımacılık firması",
-  "kapalı kasa kamyonet",
-  "taşıma şirketi",
+  verification: {
+    google: "mBLJtkJBJGCKjLhVhjROyACX1ZEzpRWk-cOZlnoqFc0"
+  },
 
-  // Lokasyon bazlı anahtar kelimeler
-  "Murat Nakliyat Alanya evden eve nakliye hizmeti",
-  "Belek şehir içi ve şehirlerarası taşıma Murat Nakliyat",
-  "Murat Nakliyat Bodrum ev taşımacılığı ve yük nakliyesi",
-  "Didim profesyonel nakliye ve taşıma hizmeti Murat Nakliyat",
-  "Fethiye güvenli ve hızlı nakliye Murat Nakliyat",
-  "Göcek villa taşımacılığı özel nakliyat çözümleri",
-  "Manavgat evden eve nakliyat ve eşya taşıma Murat Nakliyat",
-  "Marmaris taşınmanın en kolay hali Murat Nakliyat"
-],
+
+  keywords: [
+    // Genel anahtar kelimeler
+    "otel taşımacılığı",
+    "nakliyat",
+    "Antalya nakliyat",
+    "lojistik firması",
+    "profesyonel taşımacılık",
+    "Antalya lojistik",
+    "eşya taşıma hizmeti",
+    "mobilya nakliyesi",
+    "kurumsal nakliye",
+    "şehirlerarası nakliyat",
+    "taşımacılık firması",
+    "kapalı kasa kamyonet",
+    "taşıma şirketi",
+
+    // Lokasyon bazlı anahtar kelimeler
+    "Murat Nakliyat Alanya evden eve nakliye hizmeti",
+    "Belek şehir içi ve şehirlerarası taşıma Murat Nakliyat",
+    "Murat Nakliyat Bodrum ev taşımacılığı ve yük nakliyesi",
+    "Didim profesyonel nakliye ve taşıma hizmeti Murat Nakliyat",
+    "Fethiye güvenli ve hızlı nakliye Murat Nakliyat",
+    "Göcek villa taşımacılığı özel nakliyat çözümleri",
+    "Manavgat evden eve nakliyat ve eşya taşıma Murat Nakliyat",
+    "Marmaris taşınmanın en kolay hali Murat Nakliyat"
+  ],
   alternates: {
     canonical: "https://www.muratnakliyat95.com",
   },
@@ -65,14 +70,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
-      
+
+
       <body>
-        <Navigation/>
+        <Navigation />
 
         {children}
 
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
