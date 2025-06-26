@@ -8,7 +8,7 @@ const Navigation = () => {
                     <div className="container mx-auto px-4">
                         <div className="flex h-24 items-center">
                             <a className="inline-block" href="#">
-                               <img className="h-[150px]" src="logo.png" alt="Furkan Mobilya Logo" />
+                                <img className="h-[150px]" src="logo.png" alt="Furkan Mobilya Logo" />
                             </a>
                             <button className="lg:hidden py-1 ml-auto">
                                 <svg width={44} height={16} viewBox="0 0 44 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -17,10 +17,10 @@ const Navigation = () => {
                                 </svg>
                             </button>
                             <div className="hidden lg:flex ml-auto mr-12 items-center">
-                                <a className="inline-block hover:underline mr-10" href="#">Hakkımızda</a>
-                                <a className="inline-block hover:underline mr-10" href="#">Hizmetlerimiz</a>
-                                <a className="inline-block hover:underline mr-10" href="#">Projelerimiz</a>
-                                <a className="inline-block hover:underline" href="#">İletişim</a>
+                                <a className="inline-block hover:underline mr-10" href="#faq">Hakkımızda</a>
+                                <a className="inline-block hover:underline mr-10" href="#products">Araçlarımız</a>
+                                <a className="inline-block hover:underline mr-10" href="#past-services">Hizmetlerimiz</a>
+                                <a className="inline-block hover:underline" href="#contacts">İletişim</a>
                             </div>
                             <a
                                 className="group hidden lg:inline-flex py-4 px-8 items-center justify-center leading-none font-medium text-black hover:text-white border border-black rounded-full hover:bg-black transition duration-200"

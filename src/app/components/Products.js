@@ -6,27 +6,28 @@ import { motion } from "framer-motion";
 
 const Categories = () => {
   const categories = [
-    {
-      slug: "Kamyonet",
-      title: "Mutfak Dolapları",
-      description:
-        "Furkan Mobilya'nın modern mutfak dolaplarıyla mutfağınızı yeniden keşfedin.",
-      image: "/vehicle/tır.jpg",
-    },
-    {
-      slug: "vestiyer",
-      title: "Vestiyerler",
-      description: "Şıklığı ve düzeni bir araya getiren kullanışlı vestiyer modelleri.",
-      image: "/vehicle/headerimage.jpg",
-    },
-    {
-      slug: "bedroom",
-      title: "Yatak Odası",
-      description:
-        "Rahat ve lüks yatak odası mobilyaları ile her güne enerjik başlayın.",
-      image: "/vehicle/tır.jpg",
-    },
-  ];
+  {
+    slug: "kapali-kasa-kamyonet",
+    title: "Murat Nakliyat Kamyonet",
+    description: "Otel mobilyaları, elektronik eşyalar ve dekorasyon ürünlerinin hava şartlarından korunarak taşınması için kapalı kasa kamyonet hizmetimiz.",
+    image: "/vehicle/3kamyonet.png",
+    alt: "Murat Nakliyat'ın kamyonetleri ile otel taşımacılığı ve hassas yük transferi - Murat Nakliyat"
+  },
+  {
+    slug: "acik-kasa-nakliye-araci",
+    title: "Murat Nakliyat Kamyonet",
+    description: "Yatak, baza, gardırop gibi büyük hacimli otel ekipmanlarının taşınması için ideal açık kasa taşıma çözümleri.",
+    image: "/vehicle/headerimage.jpg",
+    alt: "Murat Nakliyat'ın kamyonetleri ile büyük otel mobilyalarının taşınması - Murat Nakliyat"
+  },
+  {
+    slug: "tek-kabin-kamyonet",
+    title: "Murat Nakliyat Kamyonet",
+    description: "Daha dar alanlara erişebilen araçlarımızla butik oteller, pansiyonlar ve şehir içi otel taşımalarında esnek çözümler.",
+    image: "/vehicle/tekkamyonet.png",
+    alt: "Murat Nakliyat'ın kamyonetleri ile şehir içi otel malzemesi taşımacılığı - Murat Nakliyat"
+  },
+];
 
   return (
     <div className="container mx-auto px-4 py-16">

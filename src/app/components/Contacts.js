@@ -75,8 +75,8 @@ const Contacts = () => {
                     <FaMapMarkedAlt className="text-blue-600 text-2xl" />
                   </div>
                   <h3 className="text-xl text-gray-900 font-bold mb-1">Adresimiz</h3>
-                  <p className="text-gray-600 font-medium">Cumhuriyet Mahallesi</p>
-                  <p className="text-gray-600 font-medium">Eski Sanayi Sitesi, 07010 Muratpaşa / Antalya</p>
+                  <p className="text-gray-600 font-medium">Akdeniz Sanayi Sitesi</p>
+                  <p className="text-gray-600 font-medium">5023 Sokak No: 48, Muratpaşa / Antalya</p>
                 </motion.a>
               </div>
             </div>
