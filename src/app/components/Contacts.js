@@ -37,8 +37,8 @@ const Contacts = () => {
                   <div className="flex items-center justify-center mb-6 w-14 h-14 mx-auto bg-white rounded-xl shadow">
                     <FaEnvelope className="text-blue-600 text-2xl" />
                   </div>
-                  <h3 className="text-xl text-gray-900 font-bold mb-1">Mail Adresimiz</h3>
-                  <p className="text-gray-600 font-medium">muratnakliyat95@gmail.com</p>
+                  <h3 className="text-xl text-gray-900 font-bold  mb-1">Mail Adresimiz</h3>
+                  <p className="text-s md:text-xl ml-5 text-gray-600 font-medium">muratnakliyat95@gmail.com</p>
                 </motion.a>
               </div>
 
@@ -74,9 +74,10 @@ const Contacts = () => {
                   <div className="flex items-center justify-center mb-6 w-14 h-14 mx-auto bg-white rounded-xl shadow">
                     <FaMapMarkedAlt className="text-blue-600 text-2xl" />
                   </div>
-                  <h3 className="text-xl text-gray-900 font-bold mb-1">Adresimiz</h3>
+                  <h3 className="text-md md:text-xl text-gray-900 font-bold mb-1">Adresimiz</h3>
                   <p className="text-gray-600 font-medium">Akdeniz Sanayi Sitesi</p>
-                  <p className="text-gray-600 font-medium">5023 Sokak No: 48, Muratpaşa / Antalya</p>
+                  <p className="text-s md:text-gray-600 font-medium">5023 Sokak No: 48</p>
+                  <p className="text-s md:text-gray-600 font-medium">Kepez / Antalya</p>
                 </motion.a>
               </div>
             </div>

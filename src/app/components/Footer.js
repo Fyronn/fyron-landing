@@ -2,39 +2,27 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <>
-            <section className="py-12 md:py-20 bg-black">
-                <div className="container mx-auto px-4">
-                    <div className="flex flex-wrap -mx-4 mb-16">
-                        <div className="w-full lg:w-4/12 xl:w-5/12 px-4 mb-8 lg:mb-0">
-                            <a className="inline-block" href="#">
-                                <img style={{ height: 21 }} src="logo.png" />
-                            </a>
-                        </div>
-                        <div className="w-full lg:w-8/12 xl:w-7/12 px-4">
-                            <ul className="flex flex-wrap -mb-2 items-center lg:justify-end">
-                                <li className="mb-2 mr-14"><a className="inline-block text-white hover:text-coolGray-400" href="#">İletişim </a></li>
-                                <li className="mb-2 mr-14"><a className="inline-block text-white hover:text-coolGray-400" href="#">Pojelerimiz</a></li>
-                                <li className="mb-2 mr-14"><a className="inline-block text-white hover:text-coolGray-400" href="#">Nereleydeyiz</a></li>
-                                <li className="mb-2 mr-14"><a className="inline-block text-white hover:text-coolGray-400" href="#">Hakkımızda</a></li>
-                                {/* <li className="mb-2 mr-14"><a className="inline-block text-white hover:text-coolGray-400" href="#">Support</a></li>
-                                <li className="mb-2"><a className="inline-block text-white hover:text-coolGray-400" href="#">Guides</a></li> */}
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="flex flex-wrap -mx-4 items-center">
-                        {/* <div className="w-full sm:w-1/2 px-4 mb-6 sm:mb-0">
-                            <span className="text-sm text-coolGray-600">© 2023 Realestate.co</span>
-                        </div> */}
-                        {/* <div className="w-full sm:w-1/2 px-4 sm:text-right">
-                            <div className="-mb-2"><a className="inline-block text-sm mb-2 mr-12 text-coolGray-600 hover:text-coolGray-500" href="#">Terms of Use</a><a className="inline-block text-sm mb-2 text-coolGray-600 hover:text-coolGray-500" href="#">Privacy Policy</a></div>
-                        </div> */}
-                    </div>
+        <footer className="bg-black text-white pt-14 pb-6 relative overflow-hidden">
+            <div className="container mx-auto px-4">
+                {/* Logo */}
+                <div className="flex flex-col items-center justify-center mb-8">
+                    <a href="#" className="mb-4">
+                        <img className="h-[60px] md:h-[90px]" src="logo.png" alt="Furkan Mobilya Logo" />
+                    </a>
+                    {/* Menü */}
+                    <ul className="flex flex-col md:flex-row gap-6 md:gap-12 text-lg font-medium mb-4">
+                        <li><a className="hover:text-blue-400 hover:underline underline-offset-4 transition" href="#faq">Hakkımızda</a></li>
+                        <li><a className="hover:text-blue-400 hover:underline underline-offset-4 transition" href="#products">Araçlarımız</a></li>
+                        <li><a className="hover:text-blue-400 hover:underline underline-offset-4 transition" href="#past-services">Hizmetlerimiz</a></li>
+                        <li><a className="hover:text-blue-400 hover:underline underline-offset-4 transition" href="#contacts">İletişim</a></li>
+                    </ul>
                 </div>
-            </section>
-
-
-        </>
+                {/* Copyright */}
+                <div className="border-t border-white/10 pt-6 text-center text-sm text-white/60">
+                    © {new Date().getFullYear()} Furkan Mobilya. Tüm hakları saklıdır.
+                </div>
+            </div>
+        </footer>
     )
 }
 
