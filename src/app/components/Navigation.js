@@ -11,7 +11,7 @@ const Navigation = () => {
                     <div className="container mx-auto px-4">
                         <div className="flex h-24 items-center">
                             <a className="inline-block" href="#">
-                                <img className="h-[60px] md:h-[90px]" src="logo.png" alt="Furkan Mobilya Logo" />
+                                <img className="h-[60px] md:h-[90px]" src="logo.png"  />
                             </a>
                             {/* Hamburger buton */}
                             <button
@@ -71,7 +71,7 @@ const Navigation = () => {
                             >
                                 <div className="flex items-center mb-8">
                                     <a className="inline-block mr-auto" href="#">
-                                        <img className="h-8" src="logo.png" alt="Furkan Mobilya Logo" />
+                                        <img className="h-8" src="logo.png"  />
                                     </a>
                                     <button
                                         className="ml-4 p-2 rounded-full hover:bg-gray-100"

@@ -19,7 +19,7 @@ const Header = () => {
                 transition={{ duration: 0.8 }}
                 className="block w-full mb-6 rounded-xl shadow-lg"
                 src="/asitrastudio-assets/headers/banner-left-medium.png"
-                alt="Furkan Mobilya Ürünleri"
+                
               />
 
               {/* Metin Kartı */}
